@@ -2,4 +2,4 @@ delay: 30
 timeout: 90
 port: 22
 
-reboot_on_first_run_only: true
+reboot_on_first_run_only: false
