@@ -1,6 +1,6 @@
 
 - name: reboot machine
-  shell: shutdown -r -t 8 "Ansible updates triggered"
+  shell: shutdown -r -t sec 8
   async: 1
   poll: 0
 
