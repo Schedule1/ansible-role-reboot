@@ -1,6 +1,6 @@
 
 - name: reboot machine
-  shell: shutdown -r -t sec 8
+  shell: shutdown -r now
   async: 1
   poll: 0
 
