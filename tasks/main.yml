@@ -1,6 +1,6 @@
 
 - name: reboot machine
-  shell: shutdown -r now
+  shell: sleep 5 ; reboot now "rebooting"
   async: 1
   poll: 0
 
