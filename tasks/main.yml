@@ -1,6 +1,6 @@
 
 - name: reboot machine
-  shell: sleep 5 ; reboot now "rebooting"
+  shell: reboot "rebooting"
   async: 1
   poll: 0
 
