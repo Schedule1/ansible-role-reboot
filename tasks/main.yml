@@ -1,6 +1,6 @@
 
 - name: reboot machine
-  shell: sudo sleep 10 && sudo shutdown -r now "Ansible updates triggered"
+  shell: shutdown -r now "Ansible updates triggered"
   async: 1
   poll: 0
 
